@@ -18,4 +18,3 @@ def primes(n: int) -> Generator:
 
 for num, i in enumerate(primes(50), start=1):
     print(f'{num} = {i}')
-
